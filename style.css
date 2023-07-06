@@ -323,3 +323,42 @@ button.learn {
     font-weight: normal;
     margin-top: 7%;
 }
+
+/*Review Section*/
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 300px;
+    margin: 5% auto; /* Center the container horizontally */
+}
+
+.reviews h3, .reviews h4, .reviews p, .reviews h5 {
+    color: black;
+    text-align: center;
+}
+
+.reviews h3 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.reviews h4 {
+    font-size: 60px;
+    margin: 5%;
+}
+
+.reviews p {
+    line-height: 2;
+    font-size: 17px;
+}
+
+.reviews h5 {
+    font-size: 17px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 2%;
+}
