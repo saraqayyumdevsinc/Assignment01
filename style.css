@@ -230,3 +230,30 @@ button.learn {
 .desc {
     display: flex;
 }
+
+/*Statistics Section*/
+.statistics{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    height: 30vh;
+}
+
+.statistics h5 {
+    margin-right: 10%;
+    color: #0389FF;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.statistics h6 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+    margin-top: 10%;
+}
+
