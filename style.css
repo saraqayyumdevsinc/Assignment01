@@ -183,6 +183,11 @@ button.learn {
     height: 100vh;
 }
 
+.containers-third .sssd-active{
+    color:#0389FF;
+    filter: opacity(0.5) drop-shadow(0 0 0 #0389FF);
+}
+
 .second-section-first-div, .second-section-second-div{
     display: flex;
     flex-direction: column;
@@ -223,6 +228,11 @@ button.learn {
 
 .desc {
     display: flex;
+}
+
+.desc div{
+    background-color: #F8F9FA;
+    width: 45%;
 }
 
 /*Statistics Section*/
@@ -436,7 +446,7 @@ button.learn {
     margin-top: 7%;
 }
 
-/*Blog section*/
+/*Blog section - using grid components*/
 
 .blog{
     margin-bottom: 0;
@@ -499,6 +509,9 @@ button.learn {
 .grid-item4 {
     width: 100%;
 }
+
+/*Footer Section Styling*/
+
 .footer {
     background-color: #F8F9FA;
     margin-top: 3%;
@@ -543,12 +556,18 @@ button.learn {
     font-weight: bold;
 }
 
-/*Media Queries*/
+.black{
+    color:black;
+}
+
+/*Media Queries - Responsiveness on PC*/
 @media (min-width: 768px) {
     .service {
         flex-basis: 30%;
     }
 }
+
+/*Media Queries - Responsiveness on Mobile Devices*/
 
 @media (max-width: 500px) {
     .service {
