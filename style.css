@@ -119,5 +119,43 @@ button.learn {
 }
 
 .features {
-    margin-top: 20px;
+    position: relative;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.feature-list-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 33.33%;
+    height: 300px;
+    background-color: white;
+}
+
+.features-list img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+}
+
+.features-list p,
+.features-list h2 {
+    color: black;
+    margin-bottom: 10px;
 }
