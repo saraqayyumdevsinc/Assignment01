@@ -477,7 +477,7 @@ button.learn {
     font-weight: normal;
     text-align: center;
     font-size: 15px;
-    margin: 2% 0 0 0;
+    margin: 2% 0 3% 0;
     line-height: 1.8;
 }
 
@@ -641,15 +641,21 @@ button.learn {
     }
 
     .feature-list-container {
-        width: 100%;
+        width: 90%;
         flex-basis: 100%;
         flex-direction: column;
     }
 
     .features-list1{
         width: 330px;
-        top: 210px;
+        top: 200px;
         position: relative;
+    }
+
+    .features-list1 img, .features-list2 img, .features-list3 img {
+        margin-top: 17px;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .features-list2{
@@ -660,7 +666,7 @@ button.learn {
 
     .features-list3{
         width: 330px;
-        top: -265px;
+        top: -247px;
         position: relative;
     }
 
@@ -709,13 +715,13 @@ button.learn {
 
     .leader-container{
         width: 43%;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .leader-container img {
         margin-top: 10px;
-        width: 165px;
-        height: 280px;
+        width: 169px;
+        height: 230px;
     }
 
     .leader-desc{
@@ -725,6 +731,10 @@ button.learn {
     .leader-desc h5{
         font-size: 15px;
         font-weight: bold;
+    }
+
+    .leader-desc p{
+        font-size: 12px;
     }
 
     .reviews{
