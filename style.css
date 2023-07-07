@@ -24,6 +24,7 @@
 }
 
 .cover {
+    position: relative;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -595,7 +596,7 @@ button.learn {
 }
 
 /*Media Queries - Responsiveness on PC*/
-@media (min-width: 768px) {
+@media (min-width: 1427px) {
     .service {
         flex-basis: 30%;
     }
@@ -605,9 +606,112 @@ button.learn {
     }
 }
 
+/*Media Queries - Responsiveness on Tablet Devices*/
+
+@media (min-width: 875px) and (max-width: 1427px){
+
+    .mobile-menu{
+        display: none;
+    }
+
+    .navbar2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 75%;
+        margin: 0 auto;
+        padding: 2% 0;
+    }
+
+    .service {
+        flex-basis: 40%;
+    }
+
+    .second-section-second-div p{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .second-section-first-div{
+        margin-top: 15%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .second-section-first-div h3{
+        text-align: center;
+    }
+
+    .second-section-first-div img{
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+    }
+
+    .second-section-second-div{
+        width: 100%;
+        padding: 2%;
+    }
+
+    .second-section-second-div h3{
+        margin-top: 3%;
+    }
+
+    .statistics{
+        margin-top: 90%;
+        height: 500px;
+        padding: 0%;
+    }
+
+    .stat-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .reviews{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .leader-container {
+        justify-content: center;
+    }
+
+    .leaders-div{
+        justify-content: center;
+    }
+
+    .statistics{
+        margin-top: 60%;
+    }
+
+    .stat-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        flex-wrap: nowrap;
+        padding: 0%;
+
+    }
+
+}
+
+@media (min-width:595px) and (max-width:875px){
+    .cover-section-text{
+        width: 100%;
+        top: 23%;
+    }
+}
+
+
 /*Media Queries - Responsiveness on Mobile Devices*/
 
-@media (max-width: 600px) {
+@media (max-width: 875px) {
     .service {
         flex-basis: 100%;
     }
@@ -620,17 +724,20 @@ button.learn {
 
     .cover-section-text{
         width: 100%;
-        top: 25%;
+        top: 26%;
     }
 
     .cover-title{
         background-color: #0389FF;
         width: 100%;
-        padding:5%;
+        position: relative;
+        font-size: 20px;
+        padding: 3%;
         top: 0;
     }
     .cover-heading{
         font-size: 30px;
+        padding-top: 40px;
     }
 
     .main-section{
@@ -706,8 +813,8 @@ button.learn {
     }
 
     .statistics{
-        margin-top: 90%;
-        height: 500px;
+        margin-top: 97%;
+        height: 600px;
     }
 
     .stat-container {
@@ -743,8 +850,8 @@ button.learn {
     }
 
     .reviews{
-        margin-top: 75%;
-        margin-bottom: 80%;
+        margin-top: 250px;
+        margin-bottom: 45%;
     }
 
     .services{
