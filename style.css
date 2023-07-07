@@ -677,13 +677,13 @@ button.learn {
 
     .second-section-first-div h3{
         text-align: center;
-        }
+    }
+
     .second-section-first-div img{
         object-fit: cover;
         width: 100%;
         max-height: 100%;
     }
-
 
     .second-section-second-div{
         width: 100%;
@@ -733,7 +733,12 @@ button.learn {
     }
 
     .services{
-        margin-top: 55%;
+        margin-top: 25%;
+    }
+
+    .services button{
+        padding: 5%;
+        margin-bottom: 7%;
     }
 
     .blog, .grid-container{
@@ -755,6 +760,10 @@ button.learn {
         height: 300px;
     }
 
+    .footer{
+        margin-top: 40%;
+    }
+
     .footer-container{
         margin-top: 20%;
         flex-direction: column;
@@ -764,6 +773,10 @@ button.learn {
 
     .footer-container p {
         margin-bottom: 10%;
+    }
+
+    .footer-container img {
+        margin-top: 10%;
     }
 
     .footer .credit{
