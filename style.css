@@ -251,7 +251,7 @@ button.learn {
     align-items: center;
     align-content: center;
     align-self: center;
-
+    flex-wrap: wrap;
     height: 30vh;
 }
 
