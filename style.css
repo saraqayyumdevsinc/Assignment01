@@ -146,7 +146,7 @@ button.learn {
     text-align: start;
 
     width: 31%;
-    height: 300px;
+    height: 320px;
     background-color: white;
 
     padding: 3% 3% 0 3%;
@@ -161,7 +161,8 @@ button.learn {
 .features-list1 p, .features-list2 p, .features-list3 p{
     font-weight: normal;
     color: #999;
-    margin-top: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     line-height: 1.8;
     font-size: 15px;
 }
@@ -174,7 +175,7 @@ button.learn {
 
 .features-list1 button, .features-list2 button, .features-list3 button {
     color: black;
-    margin: 0;
+    margin-left: -1px;
 }
 
 /*Next section*/
@@ -201,6 +202,7 @@ button.learn {
     align-items: start;
     align-content: start;
     width: 30%;
+
 }
 
 .second-section-first-div img {
@@ -219,7 +221,7 @@ button.learn {
     font-weight: normal;
     color: black;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 23px;
 }
 
 .second-section-second-div h4:first-child {
@@ -300,6 +302,8 @@ button.learn {
     align-content: center;
     flex-wrap: wrap;
 
+    flex-basis: 3;
+
 }
 
 .leader-container {
@@ -343,7 +347,7 @@ button.learn {
     align-content: center;
     width: 50%;
     height: 300px;
-    margin: 7% auto; /* Center the container horizontally */
+    margin: 10% auto; /* Center the container horizontally */
 }
 
 .reviews h3, .reviews h4, .reviews p, .reviews h5 {
@@ -397,7 +401,7 @@ button.learn {
     align-content: center;
     flex-wrap: wrap;
     width: 75%;
-    margin: 7% auto;
+    margin: 3% auto;
 }
 
 .services h3 {
@@ -449,7 +453,7 @@ button.learn {
     padding: 2% 5%;
     font-size: 15px;
     font-weight: normal;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 /*Blog section - using grid components*/
@@ -528,7 +532,7 @@ button.learn {
 
 .footer {
     background-color: #F8F9FA;
-    margin-top: 3%;
+    margin-top: 5%;
     padding-bottom: 3%;
 }
 
@@ -561,6 +565,7 @@ button.learn {
 }
 
 .footer .credit {
+    color: #999;
     margin-top: 2%;
     text-align: center;
 }
@@ -572,6 +577,20 @@ button.learn {
 
 .black{
     color:black;
+}
+
+.blue{
+    color: #0389FF;
+}
+
+.grey{
+    color: #999;
+}
+
+.red{
+    width:20px;
+    height: 10px;
+    vertical-align: middle;
 }
 
 /*Media Queries - Responsiveness on PC*/
@@ -628,20 +647,20 @@ button.learn {
     }
 
     .features-list1{
-        width: 300px;
-        top: 123px;
+        width: 330px;
+        top: 210px;
         position: relative;
     }
 
     .features-list2{
-        width: 300px;
-        top: -70px;
+        width: 330px;
+        top: -25px;
         position: relative;
     }
 
     .features-list3{
-        width: 300px;
-        top: -255px;
+        width: 330px;
+        top: -265px;
         position: relative;
     }
 
@@ -649,9 +668,11 @@ button.learn {
         width: 100%;
         flex-basis: 100%;
     }
+
     .second-section-first-div{
-        margin-top: 15%;
+        margin-top: 35%;
         width: 100%;
+        padding: 2%;
     }
 
     .second-section-first-div h3{
@@ -666,11 +687,17 @@ button.learn {
 
     .second-section-second-div{
         width: 100%;
-        margin-top: 15%;
+        margin-top: 5%;
+        padding: 2%;
+    }
+
+    .second-section-second-div h3{
+        margin-top: 3%;
     }
 
     .statistics{
-        margin-top: 80%;
+        margin-top: 530px;
+        height: 500px;
     }
 
     .stat-container {
@@ -680,13 +707,28 @@ button.learn {
         align-content: center;
     }
 
-    .leadership{
-        margin-top: 30%;
-        flex-basis: 40%;
+    .leader-container{
+        width: 43%;
+        justify-content: space-between;
+    }
+
+    .leader-container img {
+        margin-top: 10px;
+        width: 165px;
+        height: 280px;
+    }
+
+    .leader-desc{
+        height: 30%;
+    }
+
+    .leader-desc h5{
+        font-size: 15px;
+        font-weight: bold;
     }
 
     .reviews{
-        margin-top: 55%;
+        margin-top: 75%;
     }
 
     .services{
@@ -695,28 +737,48 @@ button.learn {
 
     .blog, .grid-container{
         width: 100%;
+        margin-top: 15%;
     }
 
-    .grid-item1{
-        height: 167px;
-    }
 
     .grid-item3 {
         grid-column: 1/4;
         grid-row: 2;
-        height: 100%;
+        height: 300px;
 
     }
 
     .grid-item4 {
         grid-column: 1/4;
         grid-row: 3;
-        height: 100%;
+        height: 300px;
     }
 
     .footer-container{
         margin-top: 20%;
         flex-direction: column;
+        margin-left: 4%;
+        width: 100%;
+    }
+
+    .footer-container h3 {
+        margin-top: 13%;
+        margin-bottom: 2%;
+    }
+
+    .footer-container p {
+        margin-bottom: 10%;
+    }
+
+    .footer .credit{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 5%;
+    }
+
+    .mob-ms{
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
