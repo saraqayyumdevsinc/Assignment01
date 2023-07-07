@@ -247,10 +247,10 @@ button.learn {
 .statistics{
     background-color: #F8F9FA;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
+    align-self: center;
 
     height: 30vh;
 }
@@ -259,6 +259,7 @@ button.learn {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 3%;
 }
 
 .statistics h5 {
