@@ -758,12 +758,7 @@ button.learn {
         margin-top: 20%;
         flex-direction: column;
         margin-left: 4%;
-        width: 100%;
-    }
-
-    .footer-container h3 {
-        margin-top: 13%;
-        margin-bottom: 2%;
+        width: 96%;
     }
 
     .footer-container p {
