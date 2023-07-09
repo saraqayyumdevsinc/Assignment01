@@ -608,20 +608,19 @@ button.learn {
 
 /*Media Queries - Responsiveness on Tablet Devices*/
 
-@media (min-width: 875px) and (max-width: 1427px){
+
+@media (min-width: 595px) and (max-width: 831px){
+
+    .cover-title{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 595px) and (max-width: 1427px){
 
     .mobile-menu{
         display: none;
-    }
-
-    .navbar2{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-        width: 75%;
-        margin: 0 auto;
-        padding: 2% 0;
     }
 
     .service {
@@ -701,17 +700,10 @@ button.learn {
 
 }
 
-@media (min-width:595px) and (max-width:875px){
-    .cover-section-text{
-        width: 100%;
-        top: 23%;
-    }
-}
-
 
 /*Media Queries - Responsiveness on Mobile Devices*/
 
-@media (max-width: 875px) {
+@media (max-width: 595px) {
     .service {
         flex-basis: 100%;
     }
